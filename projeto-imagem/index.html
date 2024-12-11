@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otimização de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Comparação de Imagens</h1>
+
+    <div class="imagem-container">
+        <h2>Imagem Original</h2>
+        <img src="/original/1.jpg" alt="Imagem Original">
+    </div>
+
+    <div class="imagem-container">
+        <h2>Imagem Otimizada</h2>
+        <picture>
+            <source srcset="otimizado/amarelo.webp" type="image/webp" media="(max-width: 600px)">
+            <img src="/original/1.jpg" alt="Imagem Otimizada">
+        </picture>
+    </div>
+
+    <div class="imagem-container">
+        <h2>Imagem Original</h2>
+        <img src="/original/2.jpg" alt="Imagem Original">
+    </div>
+
+    <div class="imagem-container">
+        <h2>Imagem Otimizada</h2>
+        <picture>
+            <source srcset="otimizado/imagem2-mobile.webp" type="image/webp" media="(max-width: 600px)">
+            <img src="/otimizado/2 (1).jpg" alt="Imagem Otimizada">
+        </picture>
+    </div>
+
+    <div class="imagem-container">
+        <h2>Imagem Original</h2>
+        <img src="/original/3.jpg" alt="Imagem Original">
+    </div>
+
+    <div class="imagem-container">
+        <h2>Imagem Otimizada</h2>
+        <picture>
+            <source srcset="otimizado/imagem3-mobile.webp" type="image/webp" media="(max-width: 600px)">
+            <img src="/otimizado/3.jpg" alt="Imagem Otimizada">
+        </picture>
+    </div>
+</body>
+</html>
